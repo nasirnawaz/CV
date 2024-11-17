@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Profile</title>
+    <style>
+        .c1 {
+            margin: 50px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .c1 img {
+            margin-right: 20px;
+        }
+
+        .c1 h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .c1 p {
+            margin: 10px 0 0;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .text-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .date-container {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .date-container div {
+            background-color: #f4f4f4;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        .activity-container {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .activity-container h2 {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .activity-container h4 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .work-history-container {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .work-history-container div {
+            text-align: center;
+        }
+
+        .work-history-container h3 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: bold;
+            color: #222;
+        }
+
+        .work-history-container p {
+            margin: 5px 0 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .specialties-section {
+            margin-top: 30px;
+        }
+
+        .specialties-section h2 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        .specialties-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .specialties-container div {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .specialties-container h3 {
+            margin: 0 0 5px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #222;
+        }
+
+        .specialties-container p {
+            margin: 0;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="c1">
+        <img src="img.jpg" alt="Profile picture" width="250" height="250">
+        <div class="text-content">
+            <h1>Web Developer</h1>
+            <p>I specialize in all aspects of web development, with expertise in the MERN stack (MongoDB, Express.js,
+                React.js, and Node.js). From building responsive front-end interfaces to developing robust back-end
+                systems and managing databases, I offer complete solutions for modern web applications. Whether it's
+                creating dynamic websites, single-page applications, or scalable APIs, I ensure high-quality, efficient,
+                and user-friendly results tailored to your needs.</p>
+
+            <!-- Date Container -->
+            <div class="date-container">
+                <div>Date of Birth: 01-12-2001</div>
+                <div>Languages: English and Urdu (Native)</div>
+            </div>
+
+            <!-- Activity Container -->
+            <div class="activity-container">
+                <h2>My Activity</h2>
+                <h4>100% Job Success</h4>
+                <h4>96% On Budget</h4>
+                <h4>99% On Time</h4>
+                <h4>89% Repeat Hire Rate</h4>
+            </div>
+
+            <!-- Work History Section -->
+            <div class="work-history-container">
+                <div>
+                    <h3>15096</h3>
+                    <p>Hours Worked</p>
+                </div>
+                <div>
+                    <h3>687</h3>
+                    <p>Work Done</p>
+                </div>
+                <div>
+                    <h3>30</h3>
+                    <p>Hours Weekly Available</p>
+                </div>
+                <div>
+                    <h3>24</h3>
+                    <p>Hour Response Time</p>
+                </div>
+            </div>
+
+            <!-- Specialties Section -->
+            <div class="specialties-section">
+                <h2>My Specialties</h2>
+                <div class="specialties-container">
+                    <div>
+                        <h3>Researcher</h3>
+                        <p>Proficient in conducting in-depth research to deliver insightful and actionable findings.</p>
+                    </div>
+                    <div>
+                        <h3>Businessman</h3>
+                        <p>Experienced in managing businesses and crafting strategies for sustainable growth and
+                            success.</p>
+                    </div>
+                    <div>
+                        <h3>Trader</h3>
+                        <p>Skilled in analyzing markets and executing effective trading strategies for maximum returns.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Web Developer</h3>
+                        <p>Specialized in developing dynamic websites and scalable applications with modern
+                            technologies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
